@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.8;
+}
+
+header {
+    background: #1e2a38;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    opacity: 0.8;
+}
+
+nav {
+    background: white;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #1e2a38;
+    font-weight: bold;
+}
+
+section {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    border-left: 6px solid #1e2a38;
+    padding-left: 12px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #1e2a38;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 60px;
+    font-size: 14px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.photo-box {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.photo-box figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.photo {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sns-links {
+    display: flex;
+    gap: 15px;
+}
+
+.sns-links a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sns-links a:nth-child(1) {
+    background-color: #1DA1F2;
+    /* Twitter */
+}
+
+.sns-links a:nth-child(2) {
+    background-color: #E1306C;
+    /* Instagram */
+}
+
+.sns-links a:nth-child(3) {
+    background-color: #41C9B4;
+    /* note */
+}
